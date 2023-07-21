@@ -1,0 +1,114 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap"; */
+/* Above line is to import Google Font Style */
+
+
+	* {
+		/* Added so Chrome browser doesn't merge some characters like li and lf into a single-space */
+		font-variant-ligatures: none;
+	}
+
+	html,
+	body {
+		background-color: #380C2A;						/* Ubuntu terminal purple */
+		color: #D3D4D4;												/* Ubuntu terminal white */
+		font-family: "Ubuntu+Mono", monospace;
+		font-size: 2.0vmin;										/* 80-col text fit on mobile phone w/o wrap */
+		overflow: hidden;
+	}
+
+	a.direction {					/* Styles the DIRECTION */
+		/* color: #613B61;										Ubuntu terminal image file purple */
+		color: #983C96;												/* Ubuntu terminal purple */
+		text-decoration: none;
+	}
+
+	a.input {							/* Styles the '$input' variable */
+		color: #4E980A;												/* Ubuntu terminal green */
+		text-decoration: none;
+	}
+
+	a.object {						/* Styles the '$object' variable */
+		color: #CCCC00;												/* Pale Yellow */
+		text-decoration: none;
+	}
+
+	a.prompt {						/* Styles the PROMPT constant */
+		color: #4E980A;
+		text-decoration: none;
+	}
+
+	a.statusbar {					/* Styles the '$ui_statusbar' variable */
+		color: #4E980A;
+		text-decoration: none;
+	}
+
+	.fixed-row-bottom {		/* Anchors input and footer to bottom of browser */
+		bottom: 10px;												/* add bottom padding to match sides */
+		position: fixed;
+		width: 100%;
+	}
+
+	#message {
+		border-top: solid 1px #4E980A;
+	}
+
+	#txtFooter {
+		background-color: #4E980A;
+		color: #0C090A;
+/* height: 48px;															Added Jun '22 ... might not be needed */
+		overflow-y: hidden;
+		padding-top: 2px;											/* differs from #txtInput to better align */
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 2px;
+		vertical-align: middle;
+		word-break: keep-all;
+	}
+
+	#txtInput {
+		background-color: #380C2A;						/* Ubuntu terminal purple */
+		border: 1px;
+		color: #4E980A;												/* Ubuntu terminal green */
+		line-height: 3.0vmin;
+		margin-bottom: 5px;
+		margin-left: 0px;
+		margin-top: 5px;
+		max-height: 3.0vmin;
+		outline: none;
+		overflow: hidden;
+		padding-top: 5px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		resize: none;
+		width: 94%;
+	}
+
+	#txtOutput {
+		background: #380C2A;
+		line-height: 3.0vmin;
+		min-height: 100px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		padding-top: 10px;										/* add top padding to match sides */
+		word-break: keep-all;
+	}
+
+	#txtPrompt {
+		background-color: #380C2A;						/* Ubuntu terminal purple */
+		border: 1px;
+		color: #4E980A;												/* Ubuntu terminal green */
+		line-height: 3.0vmin;
+		margin-bottom: 5px;
+		margin-left: 0px;
+		margin-top: 2px;											/* differs from #txtInput to better align */
+		max-height: 3.0vmin;
+		outline: none;
+		overflow: hidden;
+		padding-top: 2px;											/* differs from #txtInput to better align */
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		resize: none;
+		width: 3%;
+	}

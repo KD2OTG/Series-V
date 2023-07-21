@@ -1,0 +1,88 @@
+<?php
+/*
+SESSION VARIABLES:
+
+SESSION VARIABLE                      SET                                      CLEARED
+--------------------------------------------------------------------------------
+$_SESSION['alias']                    login.php
+
+
+$_SESSION['cargoPercent']             login.php
+                                      composite.php
+
+$_SESSION['createAccountProcedure']   enroll.php                                enroll.php
+                                      processCommand.php
+
+
+$_SESSION['email']                    enroll.php                                enroll.php
+                                      forgot.php                                forgot.php
+                                      login.php                                 login.php
+
+
+$_SESSION['fuel']                     go.php
+                                      login.php
+                                      probe.php
+
+$_SESSION['suppressPrompt']           enroll.php                               processCommand.php
+                                      forgot.php                               processCommand.php
+                                      login.php                                processCommand.php
+
+
+$_SESSION['loginProcedure']           login.php             login.php           login.php
+                                      processCommand.php
+
+
+$_SESSION['newalias']                 enroll.php                                enroll.php
+
+
+$_SESSION['password']                 enroll.php                                enroll.php
+                                      forgot.php                                forgot.php
+                                      login.php                                 login.php
+
+
+$_SESSION['playerID']                 login.php
+
+
+
+$_SESSION['points']                   player.php
+
+
+$_SESSION['resetPasswordProcedure']   forgot.php                                forgot.php
+                                      processCommand.php
+
+
+$_SESSION['sector_id']                go.php
+                                      login.php
+                                      sector.php
+
+
+$_SESSION['shipID']                   login.php
+
+
+$_SESSION['torp']                     login.php
+                                      probe.php
+                                      torp.php
+
+
+$_SESSION['turns']                    login.php
+                                      modGame.php
+
+
+$_SESSION['verificationPin']          enroll.php                                enroll.php
+                                      forgot.php                                forgot.php
+
+
+$_SESSION['xloc']                     go.php
+                                      login.php
+
+
+$_SESSION['yloc']                     go.php
+                                      login.php
+
+
+$_SESSION['zloc']                     go.php
+                                      login.php
+
+
+*/
+ ?>
